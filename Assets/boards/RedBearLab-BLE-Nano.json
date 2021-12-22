@@ -1,0 +1,37 @@
+{
+    "name": "RedBearLab BLE Nano",
+    "based_on": "http://redbearlab.com/blenano/",
+    "addBleWidget": true,
+    "map": {
+        "digital": {
+            "pins": {
+                "D0":  0,  "D1":  1,  "D2":  2,  "D3":  3,  "D4":  4,
+                "D5":  5,  "D6":  7,  "D7":  7,
+                "D13": 13
+            },
+            "ops": [ "dr", "dw" ]
+        },
+        "analog": {
+            "pins": {
+                "A0": 8, "A1": 9,  "A2": 10, "A3": 11, "A4": 12,
+                "A5": 14
+            },
+            "ops": [ "dr", "dw", "ar" ],
+            "arRange":[0, 1023]
+        },
+        "pwm": {
+            "pins": [
+                "D0", "D1", "D2", "D3", "D4",
+                "D5", "D6", "D7", "D13",
+                "A0", "A1", "A2", "A3", "A4",
+                "A5"
+            ],
+            "ops": [ "aw" ],
+            "awRange":[0, 255]
+        },
+        "virtual":  {
+            "pinsRange": [ 0, 127 ],
+            "ops": [ "vr", "vw" ]
+        }
+    }
+}

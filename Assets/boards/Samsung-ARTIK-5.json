@@ -1,0 +1,30 @@
+{
+    "name": "Samsung ARTIK 5",
+    "based_on": "https://developer.artik.io/documentation/developer-guide/gpio/gpio-mapping.html",
+    "map": {
+        "digital": {
+            "pins": {
+                                        "D2":  121, "D3":  122, "D4": 123,
+                                        "D7":  124, "D8":  125, "D9": 126,
+                "D10": 127, "D11": 129, "D12": 134, "D13": 135
+            },
+            "ops": [ "dr", "dw" ]
+        },
+        "analog": {
+            "pins": {
+            },
+            "ops": [ "dr", "dw", "ar" ],
+            "arRange": [ 0, 1023 ]
+        },
+        "pwm": {
+            "pins": [
+            ],
+            "ops": [ "aw" ],
+            "awRange": [ 0, 255 ]
+        },
+        "virtual":  {
+            "pinsRange": [ 0, 127 ],
+            "ops": [ "vr", "vw" ]
+        }
+    }
+}

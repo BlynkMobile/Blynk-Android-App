@@ -1,0 +1,14 @@
+{
+    "name": "panStamp esp-output",
+    "map": 
+    {
+        "digital": 
+        {
+          "pins": 
+            {
+                "Relay0":  16,  "Relay1":  14,  "Relay2":  12,  "Relay3":  13,  "Relay4":  4, "Relay5":  5 
+            },
+            "ops": [ "dw" ]
+        }
+    }
+}

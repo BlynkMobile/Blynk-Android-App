@@ -1,0 +1,35 @@
+{
+    "name": "BBC Micro:bit",
+    "mhz": 16,
+    "addBleWidget": true,
+    "based_on": "https://www.microbit.co.uk/device/pins",
+    "map": {
+        "digital": {
+            "pins": {
+                 "D0": 0, "D1": 1, "D2": 2, "D3": 3, "D4": 4,
+                 "D5": 5, "D6": 6, "D7": 7, "D8": 8, "D9": 9,
+                 "D10": 10, "D11": 11, "D12": 12, "D13": 13, "D14": 14,
+                 "D15": 15, "D16": 16, "D19": 19, "D20": 20
+            },
+            "ops": [ "dr", "dw" ]
+        },
+        "analog": {
+            "pins": {
+                "A0": 0, "A1": 1, "A2": 2, "A3": 3, "A4": 4, "A5": 10
+            },
+            "ops": [ "dr", "dw", "ar" ],
+            "arRange": [ 0, 1023 ]
+        },
+        "pwm": {
+            "pins": [
+                "D0", "D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12", "D13", "D14", "D15", "D16", "D19", "D20"
+            ],
+            "ops": [ "aw" ],
+            "awRange": [ 0, 255 ]
+        },
+        "virtual":  {
+            "pinsRange": [ 0, 127 ],
+            "ops": [ "vr", "vw" ]
+        }
+    }
+}

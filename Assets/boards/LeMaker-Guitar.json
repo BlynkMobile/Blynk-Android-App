@@ -1,0 +1,33 @@
+{
+    "name": "LeMaker Guitar",
+    "based_on": "http://wiki.lemaker.org/How_to_control_the_IO_on_the_SBC_boards",
+    "map": {
+        "digital": {
+            "pins": {
+                "gp25"  : 25,               "gp27"  : 27, "gp28"  : 28,
+                              "gp31"  : 31, "gp32"  : 32, "gp33"  : 33, "gp34"  : 34,
+                
+                "gp40"  : 40,               "gp42"  : 42,
+                "gp45"  : 45, "gp46"  : 46, "gp47"  : 47, "gp48"  : 48,
+                "gp50"  : 50, "gp51"  : 51,
+                
+                                                                        "gp64"  : 64,
+                "gp65"  : 65,                             "gp68"  : 68, "gp69"  : 69,
+                "gp70"  : 70,
+                              "gp86"  : 86, "gp87"  : 87, "gp88"  : 88, "gp89"  : 89,
+                "gp90"  : 90, "gp91"  : 91,
+                "gp130" :130, "gp131" :131
+            },
+            "ops": [ "dr", "dw" ]
+        },
+        "pwm": {
+            "pins": [],
+            "ops": [ "aw" ],
+            "awRange":[0, 255]
+        },
+        "virtual":  {
+            "pinsRange": [ 0, 127 ],
+            "ops": [ "vr", "vw" ]
+        }
+    }
+}

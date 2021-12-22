@@ -1,0 +1,32 @@
+{
+    "name": "SparkFun Blynk Board",
+    "map": {
+        "digital": {
+            "pins": {
+                "0":   0,           "SDA":  2,
+                "5":   5,
+                                    "12":  12,   "13": 13,   "SCL": 14,
+                "15": 15, "16": 16
+            },
+            "ops": [ "dr", "dw" ]
+        },
+        "analog": {
+            "pins": {
+                "ADC": 17
+            },
+            "ops": [ "ar" ],
+            "arRange": [ 0, 1023 ]
+        },
+        "pwm": {
+            "pins": [
+                "0", "SDA", "5", "12", "13", "SCL", "15"
+            ],
+            "ops": [ "aw" ],
+            "awRange": [ 0, 1023 ]
+        },
+        "virtual":  {
+            "pinsRange": [ 0, 127 ],
+            "ops": [ "vr", "vw" ]
+        }
+    }
+}
