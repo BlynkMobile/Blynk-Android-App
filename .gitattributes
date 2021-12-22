@@ -1,7 +1,0 @@
-*.lua linguist-detectable=true
-*.json linguist-detectable=true
-*.xml linguist-detectable=true
-*.json linguist-detectable=true
-*.java linguist-detectable=true
-*.ini linguist-detectable=true
-*.Protocol Buffer linguist-detectable=true
